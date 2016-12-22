@@ -15,7 +15,7 @@
     :interpreter ("lua" . lua-mode)
     :config
     (progn
-      (setq lua-indent-level 2
+      (setq lua-indent-level 4
             lua-indent-string-contents t)
       (spacemacs/set-leader-keys-for-major-mode 'lua-mode "d" 'lua-search-documentation)
       (spacemacs/set-leader-keys-for-major-mode 'lua-mode "sb" 'lua-send-buffer)
